@@ -1,0 +1,31 @@
+{
+	"name": "@zdeneklapes/shoplib",
+	"description": "library for shop",
+	"version": "0.0.0",
+	"main": "lib/index.js",
+	"bin": {
+		"shoplib": "lib/cli.js"
+	},
+	"author": "Zdeněk Lapes",
+	"dependencies": {
+		"@prokopschield/complex": "^0.1.0-4",
+		"@prokopschield/simple-socket-client": "^0.1.0-1"
+	},
+	"devDependencies": {
+		"@types/node": ">=16"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zlapik/shoplib.git"
+	},
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/zlapik/shoplib/issues"
+	},
+	"homepage": "https://github.com/zlapik/shoplib#readme",
+	"types": "./lib/index.d.ts",
+	"directories": {
+		"lib": "lib"
+	},
+	"keywords": []
+}
